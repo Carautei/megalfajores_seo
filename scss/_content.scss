@@ -1,0 +1,22 @@
+main{
+    background-color: $light;
+    padding:20px;
+}
+section{
+    h3{
+        font-family:$mainFont;
+        color: $secondary;
+    }
+    h1{
+        font-size: $textMedium;
+        $px-1:1em;
+    }
+    p{
+        font-size: $textMedium;
+        line-height: 1.4em;
+        color: $primary;
+    }
+}
+aside{
+    background-color: $warning;
+}
